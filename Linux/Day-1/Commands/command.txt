@@ -19,3 +19,82 @@
   947  which date cal
   948  man which
   949  history
+  ls
+  951  cd aws
+  952  ls
+  953  cd demo-practice
+  954  cd 
+  955  cd demo-practice
+  956  l
+  957  ll
+  958  git remote -v
+  959  git log
+  960  git status
+  961  git push origin main
+  962  cd 
+  963  cd .ssh
+  964  ll
+  965  ssh-keygen
+  966  ll
+  967  cat github-key.pub
+  968  cd 
+  969  ls
+  970  cd demo-practice/
+  971  git remote -v
+  972  git remote remove origin
+  973  git remote -v
+  974  git remote add origin git@github.com:JD6311/demo-practice.git
+  975  git push origin main
+  976  git pull origin main
+  977  cd
+  978  ls
+  979  cd Desktop/
+  980  ls
+  981  cd home
+  982  cd
+  983  history
+  984  ls
+  985  git init
+  986  git status
+  987  git add --all
+  988  git add .
+  989  git status
+  990  git commit -m "first commit"
+  991  git branch -M main
+  992  git remote add origin https://github.com/JD6311/terraform-aws-project.git
+  993  git push -u origin main
+  994  git remote add origin git@github.com:JD6311/terraform-aws-project.git
+  995  git push -u origin main
+  996  git remote -v
+  997  git remote remove origin
+  998  git remote -v
+  999  git remote add origin git@github.com:JD6311/terraform-aws-project.git
+ 1000  git push -u origin main
+ 1001  git status
+ 1002  man -k "list directory contents"
+ 1003  ls
+ 1004  ll
+ 1005  ls -l
+ 1006  ls -lh
+ 1007  cat > output.txt
+ 1008  cat >> output.txt
+ 1009  cat < output.txt
+ 1010  date
+ 1011  date > date.txt
+ 1012  ls
+ 1013  cd /Linux/Day-1/Commands
+ 1014  ls
+ 1015  cd Linux/
+ 1016  ls
+ 1017  cd Day-1/
+ 1018  ls
+ 1019  cd Commands/
+ 1020  ls
+ 1021  cut < date.txt --delimiter " " --fields 1
+ 1022  date | cut --delimiter " " --fields 1
+ 1023  date | cut --delimiter " " --fields 1 > today.txt
+ 1024  cal
+ 1025* date |tee fulldate.txt |cut --delimiter " " --fi
+ 1026  date | cut --delimiter " " --fields 1 | xarge echo
+ 1027  date | cut --delimiter " " --fields 1 | xargs echo
+ 1028  history
