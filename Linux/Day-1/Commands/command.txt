@@ -1,0 +1,21 @@
+929  git init
+  930  git status
+  931  git add .
+  932  git commit -m "first commint"
+  933  git branch -M main
+  934  git remote add origin git@github.com:JD6311/terraform-aws-project.git
+  935  git push -u origin main
+  936  echo Hello
+  937  cal
+  938  cal 2025
+  939  cal -y
+  940  date
+  941  echo $PATH
+  942  which cal
+  943  which echo
+  944  date -u
+  945  man -k which
+  946  man 1 which
+  947  which date cal
+  948  man which
+  949  history
