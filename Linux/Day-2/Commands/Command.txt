@@ -1,0 +1,45 @@
+ 1079  git init
+ 1080  git add .
+ 1081  git commit -m "First commit"
+ 1082  git branch -M main
+ 1083  git remote add origin git@github.com:JD6311/Training-plan.git
+ 1084  git push -u origin main
+ 1085  git add .
+ 1086  git commit -m "First commit"
+ 1087  git push -u origin main
+ 1088  ls
+ 1089  cd Linux/
+ 1090  ls
+ 1091  cd Day-2
+ 1092  ls
+ 1093  pwd
+ 1094  ls -l
+ 1095  ll
+ 1096  ls -a
+ 1097  history
+ 1098  ls
+ 1099  file command.txt
+ 1100  ls *
+ 1101  ls
+ 1102  ls *
+ 1103  ls *.txt
+ 1104  touch file1 file2 file3 
+ 1105  ls
+ 1106  echo "hello" > hello.txt
+ 1107  echo "hello from file 1" > file1
+ 1108  echo "hello from file 2" > file2
+ 1109  echo "hello from file 3" > file3
+ 1110  clear
+ 1111  mkdir folder1
+ 1112  mv file1 file2 file3 > folder1
+ 1113  mv file1 file2 file3 >"folder1"
+ 1114  mv file1 file2 file3 folder1/
+ 1115  cd ..
+ 1116  ls
+ 1117  cd ..
+ 1118  ls
+ 1119  git add .
+ 1120  git commit -m "second commit for the day"
+ 1121  git status
+ 1122  git push -u origin main
+ 1123  history
