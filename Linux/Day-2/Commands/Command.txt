@@ -43,3 +43,59 @@
  1121  git status
  1122  git push -u origin main
  1123  history
+ 1159  cd Linux/
+ 1160  ls
+ 1161  cd Day-2
+ 1162  ls
+ 1163  touch {jan,feb,march}_{2010,2011}
+ 1164  touch {jan,feb,march}_{2010,2011}/file1{1..4}
+ 1165  touch {jan,feb,march} {2010,2011}/file1{1..4}
+ 1166  touch {jan,feb,march}_{2010,2011}/file1{1,2}
+ 1167  mkdir -p {jan,feb,march}_{2010,2011}
+ 1168  rm -r {jan,feb,march}_{2010,2011}
+ 1169  ls
+ 1170  rm -r jan
+ 1171  rm -r feb,march
+ 1172  rm -r feb
+ 1173  rm -r march
+ 1174  ls
+ 1175  touch {jan,feb,march}_{2010,2011}/file1{1,2}
+ 1176  mkdir -p {jan,feb,march}_{2010,2011}
+ 1177  touch {jan,feb,march}_{2010,2011}/file1{1,2}
+ 1178  ls {jan,feb,march}_{2010,2011}
+ 1179  clear
+ 1180  mkdir -p jaydeep
+ 1181  touch jaydeep/file{001..100}.txt
+ 1182  rm file{001..100{.txt
+ 1183  rm file{001..100}.txt
+ 1184  rm jaydeep/file{001..100}.txt
+ 1185  clear
+ 1186  touch file1.txt file2.txt file3.txt
+ 1187  rm *.txt
+ 1188  ls
+ 1189  touch file.txt
+ 1190  ls
+ 1191  cp file.txt file1.txt
+ 1192  ls
+ 1193  cp file.txt file1.txt folder1/
+ 1194  cp -r jan_2011/ folder1/
+ 1195  mv file.txt file10.txt
+ 1196  ls
+ 1197  mv folder1/ folder
+ 1198  ls
+ 1199  cd folder
+ 1200  ls
+ 1201  cd..
+ 1202  cd ..
+ 1203  ls
+ 1204  mv folder/*.
+ 1205  mv folder/* .
+ 1206  mv folder/file11 file12 .
+ 1207  cd folder
+ 1208  ls
+ 1209  cd jan_2011/
+ 1210  ls
+ 1211  cd ,,
+ 1212  cd ..
+ 1213  ls
+ 1214  history
