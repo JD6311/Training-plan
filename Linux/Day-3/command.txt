@@ -1,0 +1,98 @@
+1224  pwd
+ 1225  ls
+ 1226  cd Linux/
+ 1227  ls
+ 1228  cd Day-3
+ 1229  ls
+ 1230  mkdir commands
+ 1231  mkdir screenshot
+ 1232  mkdir pdf
+ 1233  touch commant.txt
+ 1234  mv commant.txt command.txt
+ 1235  clear
+ 1236  nano test.txt
+ 1237  echo hello
+ 1238  echo hello>hello.txt
+ 1239  nano test.txt
+ 1240  ls
+ 1241  locate *.txt
+ 1242  locate -S
+ 1243  cd ..
+ 1244  cd Day-3
+ 1245  ls
+ 1246  find .txt
+ 1247  find *.txt
+ 1248  find
+ 1249  find . -maxdepth 2
+ 1250  find . -maxdepth 1
+ 1251  find . -maxdepth 5
+ 1252  find . -type d
+ 1253  find . -type f
+ 1254  cat hello.txt
+ 1255  cat file123.txt
+ 1256  cat file123.txt>hello.txt
+ 1257  cat hello.txt>file123.txt
+ 1258  ls
+ 1259  cd hello.txt
+ 1260  cat hello.txt>file123.txt
+ 1261  echo "123" >hello.txt
+ 1262  cat hello.txt
+ 1263  echo "12345" >> hello.txt
+ 1264  echo "how are you" >> hello.txt
+ 1265  tac hello.txt
+ 1266  head
+ 1267  head -n 20 filename.txt   # first 20 lines
+ 1268  head -n 20 hello.txt
+ 1269  head -n 1 hello.txt
+ 1270  tail -n 1 hello.txt
+ 1271  globalprotect launch-ui
+ 1272  aws --version
+ 1273  aws cli
+ 1274  clear
+ 1275  sudo apt install locate
+ 1276  sudo apt update
+ 1277  sudo apt install mlocate
+ 1278  sudo updatedb
+ 1279  locate filename
+ 1280  ls
+ 1281  pwd
+ 1282  sort words.txt
+ 1283  sort words.txt | tac
+ 1284  sort words.txt | cat
+ 1285  ls
+ 1286  sort -n number.txt
+ 1287  sort -n numbers.txt
+ 1288  ls
+ 1289  sort -u numbers0-9.txt
+ 1290  ls
+ 1291  pwd
+ 1292  ls
+ 1293  gzip numbers.txt
+ 1294  ls
+ 1295  ungzip numbers.txt
+ 1296  unzip numbers.txt
+ 1297  unzip numbers.txt.gz
+ 1298  ls
+ 1299  gunzip numbers.txt.gz
+ 1300  ls
+ 1301  mkdir super_secret_stuff 
+ 1302  touch super_secret_stuff/ top_secret.txt
+ 1303  touch super_secret_stuff/top_secret.txt
+ 1304  sudo updatedb
+ 1305  locate top_secret.txt > ~/super_secret_stuff
+ 1306  sudo find -maxdepth 4 -type f -size +1M -exec ls -lh {} \; | sort -k 5hr > ~/filesizes.txt 
+ 1307  clear
+ 1308  nano script.sh
+ 1309  bash script.sh
+ 1310  nano script.sh
+ 1311  cat script.sh
+ 1312  bash script.sh
+ 1313  rm -r file{1..10}
+ 1314  crontab -e
+ 1315  date
+ 1316  crontab -e
+ 1317  date
+ 1318  cd ..
+ 1319  ls
+ 1320  git add .
+ 1321  history
